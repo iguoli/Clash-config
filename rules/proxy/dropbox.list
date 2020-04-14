@@ -1,4 +1,3 @@
 # Dropbox
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-KEYWORD,dropbox
-PROCESS-NAME,Dropbox
+PROCESS-NAME,Dropbox,PROXY
+DOMAIN-KEYWORD,dropbox,PROXY

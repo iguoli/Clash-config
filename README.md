@@ -63,7 +63,7 @@ Surge 包含3种类型的代理策略: **代理**，**策略组**和**内置策�
 
 - `subconverter` 通过配置文件 `pref.ini` 来转换订阅，生成 Clash/Surge/Quantumult(X) 的配置文件。
 
-- `subconverter` 通过 URL 中的 `config` 参数读取自定义配置文件 (`custom_config.ini`)，自定义配置文件中的选项会覆盖 `pref.ini` 中的配置选项。
+- `subconverter` 通过 URL 中的 `config` 参数读取自定义配置文件 (`custom_config/clash.ini`)，自定义配置文件中的选项会覆盖 `pref.ini` 中的配置选项。
 
 #### `pref.ini` 配置文件
 
@@ -121,9 +121,9 @@ overwrite_original_rules=false
 ;         proxy_policy,URL
 ;         proxy_policy,[]Rule
 ; [] 前缀后的文字将被当作规则，而不是链接或路径，主要包含 []GEOIP 和 []FINAL
-surge_ruleset=DIRECT,rules/ACL4SSR/Clash/LocalAreaNetwork.list
+surge_ruleset=DIRECT,rules/direct/misc.list
 surge_ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-surge_ruleset=Proxy,rules/ACL4SSR/Clash/ProxyMedia.list
+surge_ruleset=Proxy,rules/proxy/github.list
 surge_ruleset=DIRECT,[]GEOIP,CN
 surge_ruleset=NotMatch,[]FINAL
 
@@ -146,7 +146,7 @@ listen=0.0.0.0
 port=25500
 ```
 
-#### `custom_config.ini` 自定义配置文件
+#### `custom_config/clash.ini` 自定义配置文件
 
 ```ini
 [custom]
