@@ -1,5 +1,4 @@
 # Apple
-# 一般国内Apple肯定正常,不需要开代理
 DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,akadns.net
@@ -15,4 +14,5 @@ DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-KEYWORD,apple
 IP-CIDR,17.0.0.0/8,no-resolve
