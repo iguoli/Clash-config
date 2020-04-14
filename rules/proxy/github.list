@@ -1,5 +1,5 @@
-# Github
-DOMAIN-KEYWORD,github,Github
-DOMAIN-SUFFIX,githubapp.com,Github
-DOMAIN-SUFFIX,githubassets.com,Github
-DOMAIN-SUFFIX,githubusercontent.com,Github
+# PROXY
+DOMAIN-KEYWORD,github,PROXY
+DOMAIN-SUFFIX,githubapp.com,PROXY
+DOMAIN-SUFFIX,githubassets.com,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
