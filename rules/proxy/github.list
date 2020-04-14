@@ -1,4 +1,4 @@
-# PROXY
+# Github
 DOMAIN-KEYWORD,github,PROXY
 DOMAIN-SUFFIX,githubapp.com,PROXY
 DOMAIN-SUFFIX,githubassets.com,PROXY
