@@ -1,2 +1,3 @@
 cache
 *.swp
+.DS_Store
