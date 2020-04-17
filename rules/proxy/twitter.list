@@ -1,6 +1,6 @@
 # Twitter
-DOMAIN-KEYWORD,twitter,PROXY
-DOMAIN-SUFFIX,t.co,PROXY
-DOMAIN-SUFFIX,twimg.co,PROXY
-DOMAIN-SUFFIX,twimg.com,PROXY
-DOMAIN-SUFFIX,twimg.org,PROXY
+DOMAIN-KEYWORD,twitter,🔰 节点选择
+DOMAIN-SUFFIX,t.co,🔰 节点选择
+DOMAIN-SUFFIX,twimg.co,🔰 节点选择
+DOMAIN-SUFFIX,twimg.com,🔰 节点选择
+DOMAIN-SUFFIX,twimg.org,🔰 节点选择

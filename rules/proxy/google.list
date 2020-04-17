@@ -1,26 +1,26 @@
 # Google
-DOMAIN-KEYWORD,google,PROXY
-DOMAIN-KEYWORD,googleapis,PROXY
-DOMAIN-SUFFIX,gmail.com,PROXY
-DOMAIN-SUFFIX,1e100.net,PROXY
-DOMAIN-SUFFIX,2mdn.net,PROXY
-DOMAIN-SUFFIX,app-measurement.net,PROXY
-DOMAIN-SUFFIX,g.co,PROXY
-DOMAIN-SUFFIX,ggpht.com,PROXY
-DOMAIN-SUFFIX,goo.gl,PROXY
-DOMAIN-SUFFIX,googleapis.cn,PROXY
-DOMAIN-SUFFIX,googleapis.com,PROXY
-DOMAIN-SUFFIX,gstatic.cn,PROXY
-DOMAIN-SUFFIX,gstatic.com,PROXY
-DOMAIN-SUFFIX,gvt0.com,PROXY
-DOMAIN-SUFFIX,gvt1.com,PROXY
-DOMAIN-SUFFIX,gvt2.com,PROXY
-DOMAIN-SUFFIX,gvt3.com,PROXY
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
-DOMAIN-SUFFIX,youtu.be,PROXY
-DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
-DOMAIN-SUFFIX,youtube.com,PROXY
-DOMAIN-SUFFIX,yt.be,PROXY
-DOMAIN-SUFFIX,ytimg.com,PROXY
-IP-CIDR,74.125.0.0/16,PROXY,no-resolve
-IP-CIDR,173.194.0.0/16,PROXY,no-resolve
+DOMAIN-KEYWORD,google,🔰 节点选择
+DOMAIN-KEYWORD,googleapis,🔰 节点选择
+DOMAIN-SUFFIX,gmail.com,🔰 节点选择
+DOMAIN-SUFFIX,1e100.net,🔰 节点选择
+DOMAIN-SUFFIX,2mdn.net,🔰 节点选择
+DOMAIN-SUFFIX,app-measurement.net,🔰 节点选择
+DOMAIN-SUFFIX,g.co,🔰 节点选择
+DOMAIN-SUFFIX,ggpht.com,🔰 节点选择
+DOMAIN-SUFFIX,goo.gl,🔰 节点选择
+DOMAIN-SUFFIX,googleapis.cn,🔰 节点选择
+DOMAIN-SUFFIX,googleapis.com,🔰 节点选择
+DOMAIN-SUFFIX,gstatic.cn,🔰 节点选择
+DOMAIN-SUFFIX,gstatic.com,🔰 节点选择
+DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
+DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
+DOMAIN-SUFFIX,gvt2.com,🔰 节点选择
+DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
+DOMAIN-SUFFIX,youtu.be,🔰 节点选择
+DOMAIN-SUFFIX,youtube-nocookie.com,🔰 节点选择
+DOMAIN-SUFFIX,youtube.com,🔰 节点选择
+DOMAIN-SUFFIX,yt.be,🔰 节点选择
+DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
+IP-CIDR,74.125.0.0/16,🔰 节点选择,no-resolve
+IP-CIDR,173.194.0.0/16,🔰 节点选择,no-resolve

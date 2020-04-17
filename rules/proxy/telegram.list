@@ -1,14 +1,14 @@
 # Telegram
-DOMAIN-SUFFIX,t.me,PROXY
-DOMAIN-SUFFIX,tdesktop.com,PROXY
-DOMAIN-SUFFIX,telegra.ph,PROXY
-DOMAIN-SUFFIX,telegram.me,PROXY
-DOMAIN-SUFFIX,telegram.org,PROXY
-IP-CIDR,91.108.4.0/22,PROXY,no-resolve
-IP-CIDR,91.108.56.0/22,PROXY,no-resolve
-IP-CIDR,91.108.56.0/23,PROXY,no-resolve
-IP-CIDR,109.239.140.0/24,PROXY,no-resolve
-IP-CIDR,149.154.160.0/22,PROXY,no-resolve
-IP-CIDR,149.154.164.0/22,PROXY,no-resolve
-IP-CIDR,149.154.168.0/22,PROXY,no-resolve
-IP-CIDR,149.154.172.0/22,PROXY,no-resolve
+DOMAIN-SUFFIX,t.me,🔰 节点选择
+DOMAIN-SUFFIX,tdesktop.com,🔰 节点选择
+DOMAIN-SUFFIX,telegra.ph,🔰 节点选择
+DOMAIN-SUFFIX,telegram.me,🔰 节点选择
+DOMAIN-SUFFIX,telegram.org,🔰 节点选择
+IP-CIDR,91.108.4.0/22,🔰 节点选择,no-resolve
+IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
+IP-CIDR,91.108.56.0/23,🔰 节点选择,no-resolve
+IP-CIDR,109.239.140.0/24,🔰 节点选择,no-resolve
+IP-CIDR,149.154.160.0/22,🔰 节点选择,no-resolve
+IP-CIDR,149.154.164.0/22,🔰 节点选择,no-resolve
+IP-CIDR,149.154.168.0/22,🔰 节点选择,no-resolve
+IP-CIDR,149.154.172.0/22,🔰 节点选择,no-resolve
