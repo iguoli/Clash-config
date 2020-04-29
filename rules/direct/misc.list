@@ -2,5 +2,6 @@
 DOMAIN-KEYWORD,dxc,DIRECT
 DOMAIN-KEYWORD,csc,DIRECT
 
-# Website
+# Applications
 DOMAIN-KEYWORD,symantec,DIRECT
+DOMAIN-SUFFIX,bitdefender.net,DIRECT
