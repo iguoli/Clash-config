@@ -1,7 +1,7 @@
 # Company
-DOMAIN-KEYWORD,dxc,DIRECT
-DOMAIN-KEYWORD,csc,DIRECT
+DOMAIN-KEYWORD,dxc
+DOMAIN-KEYWORD,csc
 
 # Applications
-DOMAIN-KEYWORD,symantec,DIRECT
-DOMAIN-SUFFIX,bitdefender.net,DIRECT
+DOMAIN-KEYWORD,symantec
+DOMAIN-SUFFIX,bitdefender.net
