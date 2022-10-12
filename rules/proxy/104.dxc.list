@@ -8,3 +8,11 @@ DOMAIN-SUFFIX,service-now.com
 DOMAIN-SUFFIX,esl.corp.hp.com
 IP-CIDR,204.104.117.53/32
 IP-CIDR,15.147.194.0/24
+
+# AD
+DOMAIN,owa-swpp.bmwgroup.net
+DOMAIN,swpp.bmwgroup.net
+DOMAIN,authsts.advantagedp.org
+DOMAIN-SUFFIX,ucjoin.bmwgroup.net
+DOMAIN-SUFFIX,advantagedp.org
+DOMAIN-SUFFIX,bmwgroup.net
