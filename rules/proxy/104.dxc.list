@@ -1,6 +1,10 @@
-  # Company
-  DOMAIN-SUFFIX,dxc.com
-  DOMAIN-SUFFIX,csc.com
-  DOMAIN-SUFFIX,service-now.com
-  DOMAIN-SUFFIX,mcloud.entsvcs.net
-  DOMAIN-SUFFIX,entsvcs.com
+# Company
+DOMAIN-SUFFIX,dxc.com
+DOMAIN-SUFFIX,csc.com
+DOMAIN-SUFFIX,entsvcs.net
+DOMAIN-SUFFIX,entsvcs.com
+DOMAIN-SUFFIX,dxccorp.net
+DOMAIN-SUFFIX,service-now.com
+DOMAIN-SUFFIX,esl.corp.hp.com
+IP-CIDR,204.104.117.53/32
+IP-CIDR,15.147.194.0/24
