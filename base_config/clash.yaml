@@ -44,7 +44,7 @@ ipv6: true
 external-controller: 127.0.0.1:9090
 
 # 配置目录的相对路径或静态 Web 资源目录的绝对路径. Clash core 将在
-# `http://{{external-controller}}/ui` 中提供服务.
+# http://{{external-controller}}/ui 中提供服务.
 # external-ui: folder
 
 # RESTful API 密钥 (可选)
