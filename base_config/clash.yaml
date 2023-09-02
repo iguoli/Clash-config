@@ -43,10 +43,6 @@ ipv6: true
 # RESTful Web API 监听地址
 external-controller: 127.0.0.1:9090
 
-# 配置目录的相对路径或静态 Web 资源目录的绝对路径. Clash core 将在
-# http://{{external-controller}}/ui 中提供服务.
-# external-ui: folder
-
 # RESTful API 密钥 (可选)
 # 通过指定 HTTP 头 `Authorization: Bearer ${secret}` 进行身份验证
 # 如果RESTful API在 0.0.0.0 上监听, 务必设置一个 secret 密钥.
