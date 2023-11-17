@@ -3,6 +3,7 @@ DOMAIN,cdn.oaistatic.com
 
 # Claude
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-KEYWORD,claude
 
 # Bard
 DOMAIN,bard.google.com
