@@ -1,2 +1,11 @@
 # Proxy Cloudflare CDN to access ChatGPT
 DOMAIN,cdn.oaistatic.com
+
+# Claude
+DOMAIN-SUFFIX,anthropic.com
+
+# Bard
+DOMAIN,bard.google.com
+
+# Bing
+DOMAIN-SUFFIX,bing.com
