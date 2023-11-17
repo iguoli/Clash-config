@@ -2,3 +2,6 @@
 DOMAIN-SUFFIX,python.org
 DOMAIN-SUFFIX,unsplash.com
 DOMAIN-SUFFIX,stackoverflow.com
+
+# Proxy Cloudflare CDN to access ChatGPT
+DOMAIN,cdn.oaistatic.com
