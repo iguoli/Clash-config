@@ -12,3 +12,6 @@ DOMAIN,makersuite.google.com
 
 # Bing
 DOMAIN-SUFFIX,bing.com
+
+# Codeium
+DOMAIN-SUFFIX,codeium.com
