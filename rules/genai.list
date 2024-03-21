@@ -15,3 +15,6 @@ DOMAIN-SUFFIX,bing.com
 
 # Codeium
 DOMAIN-SUFFIX,codeium.com
+
+# LangChain
+DOMAIN-SUFFIX,langchain.com
