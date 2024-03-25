@@ -10,9 +10,6 @@ DOMAIN,ai.google.dev
 DOMAIN,aistudio.google.com
 DOMAIN,makersuite.google.com
 
-# Bing
-DOMAIN-SUFFIX,bing.com
-
 # Codeium
 DOMAIN-SUFFIX,codeium.com
 
