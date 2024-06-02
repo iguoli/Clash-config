@@ -83,9 +83,9 @@ dns:
 
   # 这些 名称服务器(nameservers) 用于解析下列 DNS 名称服务器主机名.
   # 仅指定 IP 地址
-  default-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
+  # default-nameserver:
+  #   - 119.29.29.29
+  #   - 223.5.5.5
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 CIDR
   # use-hosts: true # 查找 hosts 并返回 IP 记录
@@ -195,19 +195,15 @@ dns:
   # 所有 DNS 查询都直接发送到名称服务器, 无需代理
   # Clash 使用第一个收到的响应作为 DNS 查询的结果.
   nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-    - tls://dot.pub # DNS over TLS
-    - https://doh.pub/dns-query	# DNS over HTTPS
-    - dhcp://en0 # 来自 dhcp 的 dns
-    # - '8.8.8.8#en0'
-
+    - https://doh.dns.sb/dns-query                    # dns.sb DoH
+    - https://doh.opendns.com/dns-query               # OpenDNS DoH
+    - tls://dns.google                                # Google DoT
   # 当 `fallback` 存在时, DNS 服务器将向此部分中的服务器
   # 与 `nameservers` 中的服务器发送并发请求
   # 当 GEOIP 国家不是 `CN` 时, 将使用 fallback 服务器的响应
-  fallback:
-    - tcp://1.1.1.1
-    - 'tcp://1.1.1.1#en0'
+  # fallback:
+  #   - tcp://1.1.1.1
+  #   - 'tcp://1.1.1.1#en0'
 
   # 如果使用 `nameservers` 解析的 IP 地址在下面指定的子网中,
   # 则认为它们无效, 并使用 `fallback` 服务器的结果.
@@ -230,6 +226,7 @@ dns:
   #     - '+.youtube.com'
 
   # 通过特定的名称服务器查找域名
-  # nameserver-policy:
-  #   'www.baidu.com': '114.114.114.114'
-  #   '+.internal.crop.com': '10.0.0.1'
+  nameserver-policy:
+    "geosite: cn,private":          # 国内网址
+      - tls://dns.alidns.com        # 阿里 DoT
+      - tls://dot.pub               # 腾讯 DoT
