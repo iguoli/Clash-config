@@ -197,7 +197,8 @@ dns:
   nameserver:
     - https://doh.dns.sb/dns-query                    # dns.sb DoH
     - https://doh.opendns.com/dns-query               # OpenDNS DoH
-    - tls://dns.google                                # Google DoT
+    - tls://dot.pub                                   # 腾讯 DoT
+    - tls://dns.alidns.com                            # 阿里 DoT
   # 当 `fallback` 存在时, DNS 服务器将向此部分中的服务器
   # 与 `nameservers` 中的服务器发送并发请求
   # 当 GEOIP 国家不是 `CN` 时, 将使用 fallback 服务器的响应
