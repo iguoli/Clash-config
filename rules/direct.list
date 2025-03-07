@@ -3,3 +3,5 @@ DOMAIN,ligpwr.myds.me
 
 DOMAIN-SUFFIX,nvidia.com
 
+# A DNS service for local app development testing
+DOMAIN-SUFFIX,nip.io
